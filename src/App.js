@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
 import CssBaseline from '@material-ui/core/CssBaseline'
-import Home from './components/index'
+import Home from './components/Home'
 import Experiences from './components/Experiences'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio';
