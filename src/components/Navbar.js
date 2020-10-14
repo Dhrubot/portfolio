@@ -124,9 +124,6 @@ const Navbar = () => {
                     <Typography variant='h5' style={{ color: 'tan', textDecoration: 'none', marginLeft: '2rem'}} component={Link} to={'/resume'}>
                             Resume
                     </Typography>
-                    <Typography variant='h5' style={{ color: 'tan', textDecoration: 'none', marginLeft: '2rem'}} component={Link} to={'/about'}>
-                            About Me
-                    </Typography>
                     <IconButton onClick={() => toggleSlider('right', true)} >
                         <MenuIcon style={{ color: 'tomato', marginLeft: '2rem' }} fontSize='large'/>
                     </IconButton>
