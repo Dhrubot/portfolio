@@ -44,11 +44,17 @@ const Portfolio = () => {
                         <CardHeader title='Circle' style={{color: '#78A9D8'}}
                         action={
                             <>
-                            <IconButton aria-label="Github" style={{color: '#78A9D8'}}>
-                                <GitHubIcon onClick={() => window.open('https://github.com/Dhrubot/circle-frontend')}/>
+                            <IconButton aria-label="Github" 
+                                style={{color: '#78A9D8'}} 
+                                onClick={() => window.open('https://github.com/Dhrubot/circle-frontend')}
+                            >
+                                <GitHubIcon />
                             </IconButton>
-                            <IconButton aria-label="Live" style={{color: '#78A9D8'}}>
-                                <LiveTvIcon onClick={() => window.open('https://dhrubot.github.io/circle-frontend/')} />
+                            <IconButton aria-label="Live" 
+                                style={{color: '#78A9D8'}} 
+                                onClick={() => window.open('https://dhrubot.github.io/circle-frontend/')}
+                            >
+                                <LiveTvIcon />
                             </IconButton>
                             </>
                         }/>
@@ -62,7 +68,7 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions style={{marginLeft: '1rem'}}>
-                            <Typography variant='overline' disableSpacing style={{color: '#8B9EAF'}}>
+                            <Typography variant='overline' style={{color: '#8B9EAF'}}>
                                 Rails React Redux React-Bootstrap
                             </Typography>
                         </CardActions>
@@ -74,11 +80,17 @@ const Portfolio = () => {
                         <CardHeader title='Space Shooter' style={{color: '#78A9D8'}}
                             action={
                                 <>
-                                <IconButton aria-label="Github" style={{color: '#78A9D8'}}>
-                                    <GitHubIcon onClick={() => window.open('https://github.com/Dhrubot/space-shooter-frontend')}/>
+                                <IconButton aria-label="Github" 
+                                    style={{color: '#78A9D8'}} 
+                                    onClick={() => window.open('https://github.com/Dhrubot/space-shooter-frontend')}
+                                >
+                                    <GitHubIcon />
                                 </IconButton>
-                                <IconButton aria-label="Live" style={{color: '#78A9D8'}}>
-                                    <LiveTvIcon onClick={() => window.open('https://dhrubot.github.io/space-shooter-frontend/')}/>
+                                <IconButton aria-label="Live" 
+                                    style={{color: '#78A9D8'}} 
+                                    onClick={() => window.open('https://dhrubot.github.io/space-shooter-frontend/')}
+                                >
+                                    <LiveTvIcon />
                                 </IconButton>
                                 </>
                             }/>
@@ -93,7 +105,7 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions style={{marginLeft: '1rem'}}>
-                            <Typography variant='overline' disableSpacing style={{color: '#8B9EAF'}}>
+                            <Typography variant='overline' style={{color: '#8B9EAF'}}>
                                 Rails Javascript HTML CSS
                             </Typography>
                         </CardActions>
@@ -105,11 +117,17 @@ const Portfolio = () => {
                         <CardHeader title='Palmkings' style={{color: '#78A9D8'}}
                             action={
                                 <>
-                                <IconButton aria-label="Github" style={{color: '#78A9D8'}}>
-                                    <GitHubIcon onClick={() => window.open('https://github.com/Dhrubot/palmkings')} />
+                                <IconButton aria-label="Github" 
+                                    style={{color: '#78A9D8'}} 
+                                    onClick={() => window.open('https://github.com/Dhrubot/palmkings')}
+                                >
+                                    <GitHubIcon />
                                 </IconButton>
-                                <IconButton aria-label="Live" style={{color: '#78A9D8'}}>
-                                    <LiveTvIcon onClick={() => window.open('https://palmkings.herokuapp.com/')} />
+                                <IconButton aria-label="Live" 
+                                    style={{color: '#78A9D8'}} 
+                                    onClick={() => window.open('https://palmkings.herokuapp.com/')}
+                                >
+                                    <LiveTvIcon />
                                 </IconButton>
                                 </>
                             }/>
@@ -123,7 +141,7 @@ const Portfolio = () => {
                             </CardContent>
                         </CardActionArea>
                         <CardActions style={{marginLeft: '1rem'}}>
-                            <Typography variant='overline' disableSpacing style={{color: '#8B9EAF'}}>
+                            <Typography variant='overline' style={{color: '#8B9EAF'}}>
                                 Rails AWS S3 Bootstrap
                             </Typography>
                         </CardActions>
