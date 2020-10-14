@@ -121,7 +121,7 @@ const Navbar = () => {
                             Dhrubo's Portfolio
                         </Typography>
                     </Box>
-                    <Typography variant='h5' style={{ color: 'tan', textDecoration: 'none'}} component={Link} to={'/resume'}>
+                    <Typography variant='h5' style={{ color: 'tan', textDecoration: 'none', marginLeft: '2rem'}} component={Link} to={'/resume'}>
                             Resume
                     </Typography>
                     <Typography variant='h5' style={{ color: 'tan', textDecoration: 'none', marginLeft: '2rem'}} component={Link} to={'/about'}>
