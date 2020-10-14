@@ -3,6 +3,7 @@ import { makeStyles, withStyles } from '@material-ui/core/styles'
 import { TextField, Typography, Button, Grid, Box } from '@material-ui/core'
 import SendIcon from '@material-ui/icons/Send'
 import Navbar from './Navbar'
+import emailjs from 'emailjs-com';
 
 const useStyles = makeStyles(theme => ({
     form: {
@@ -41,6 +42,18 @@ const InputField = withStyles({
     },
 })(TextField)
 
+const sendEmail = e => {
+    e.preventDefault();
+
+    emailjs.sendForm('gmail', 'template_bobu5d8', e.target, 'user_39loIN9zjgGb2v3Rlw0Ha')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
 const Contact = () => {
 
     const classes = useStyles()
@@ -49,18 +62,18 @@ const Contact = () => {
             <Box component='div' style={{ background: '#142335', height: '100vh'}}>
             <Navbar />
                 <Grid container justify='center'>
-                    <Box component='form' className={classes.form}>
+                    <Box component='form' className={classes.form} onSubmit={sendEmail}>
                         <Typography variant='h5' style={{ color: 'orangeRed', textAlign: 'center', textTransform: 'uppercase'}}>
                             Get In Touch
                         </Typography>
                         <Typography variant='h6' style={{ color: 'tomato', textAlign: 'center'}}>
                             Send a message here or email me at dhrubo.dh@gmail.com to talk about a project collaboration or a job prospect
                         </Typography>
-                        <InputField fullWidth={true} label='Name' variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium' /> <br />
-                        <InputField fullWidth={true} label='Email' variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium'/> <br />
-                        <InputField fullWidth={true} label='Company Name' variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium'/> <br />
-                        <InputField fullWidth={true} label='Message' multiline rows={4} variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium'/> <br />
-                        <Button fullWidth={true} variant='outlined'endIcon={ <SendIcon />}  className={classes.button}>
+                        <InputField fullWidth={true} label='Name' name='name' variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium' /> <br />
+                        <InputField fullWidth={true} label='Email' name='email' variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium'/> <br />
+                        <InputField fullWidth={true} label='Subject' name='subject' variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium'/> <br />
+                        <InputField fullWidth={true} label='Message' name='message' multiline rows={4} variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium'/> <br />
+                        <Button type='submit' fullWidth={true} variant='outlined'endIcon={ <SendIcon />}  className={classes.button}>
                             Contact me
                         </Button>
                     </Box>
