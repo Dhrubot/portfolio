@@ -58,27 +58,27 @@ const About = () => {
             </CardContent>
             <CardActions disableSpacing style={{justifyContent: 'center'}}>
                 <Tooltip title='LinkedIn' placement="top">
-                    <IconButton>
-                        <LinkedInIcon className={classes.icon} onClick={() => window.open('https://www.linkedin.com/in/dhrubo-talukder-1895261b3/')} />  
+                    <IconButton onClick={() => window.open('https://www.linkedin.com/in/dhrubo-talukder-1895261b3/')}>
+                        <LinkedInIcon className={classes.icon} />  
                     </IconButton>
                 </Tooltip>
                 <Tooltip title='Facebook' placement="top">
-                    <IconButton>
-                        <Facebook className={classes.icon} onClick={() => window.open('https://www.facebook.com/Shohorbondi/')}/>  
+                    <IconButton onClick={() => window.open('https://www.facebook.com/Shohorbondi/')}>
+                        <Facebook className={classes.icon} />  
                     </IconButton>
                 </Tooltip>
                 <Tooltip title='Twitter' placement="top">
-                    <IconButton >
-                        <Twitter className={classes.icon} onClick={() => window.open('https://twitter.com/Dhowate')}/>  
+                    <IconButton onClick={() => window.open('https://twitter.com/Dhowate')}>
+                        <Twitter className={classes.icon} />  
                     </IconButton>
                 </Tooltip>
                 <Tooltip title='Github' placement="top">
-                    <IconButton>
-                        <GitHubIcon className={classes.icon} onClick={() => window.open('https://github.com/Dhrubot')} />  
+                    <IconButton onClick={() => window.open('https://github.com/Dhrubot')} >
+                        <GitHubIcon className={classes.icon} />  
                     </IconButton>
                 </Tooltip>
-                <Tooltip title='Resume' placement="top" onClick={() => window.location.href = '/resume'}>
-                    <IconButton>
+                <Tooltip title='Resume' placement="top" >
+                    <IconButton onClick={() => window.location.href = '/resume'}>
                         <DescriptionIcon className={classes.icon} />  
                     </IconButton>
                 </Tooltip>
