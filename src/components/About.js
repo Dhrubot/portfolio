@@ -13,8 +13,11 @@ const useStyle = makeStyles( theme => ({
         color: 'tan',
         margin: '2rem auto',
         background: '#142335',
-        maxWidth: 800,
+        width: '80%',
         opacity: 0.9,
+        [theme.breakpoints.down('md')]: {
+            width: '90%'
+        }
     },
     title: {
         color: 'orangeRed',
@@ -33,6 +36,9 @@ const useStyle = makeStyles( theme => ({
         marginLeft: '2rem',
         '&:hover': {
             fill: 'tomato',
+        },
+        [theme.breakpoints.down('md')]: {
+            marginLeft: '0.5rem'
         }
     }
 
