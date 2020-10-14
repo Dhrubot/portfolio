@@ -24,7 +24,7 @@ const Resume = () => {
             <Navbar />
             <Tooltip title='Download Resume' placement='top-end' >
                 <Link href={`${process.env.PUBLIC_URL}/resume.pdf`} target='_blank' download >
-                        <GetAppIcon style={{color: 'tomato', fontSize: '60', marginLeft: '45%'}}/>
+                        <GetAppIcon style={{color: 'tomato', fontSize: '60', marginLeft: '48%'}}/>
                 </Link>
             </Tooltip>
 
