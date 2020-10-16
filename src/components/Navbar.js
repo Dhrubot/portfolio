@@ -128,7 +128,7 @@ const Navbar = () => {
                     </Box>
                     <Box>
                     <IconButton onClick={() => toggleSlider('right', true)} >
-                        <MenuIcon style={{ color: 'tomato', marginLeft: '1.5rem'}} fontSize='large'/>
+                        <MenuIcon style={{ color: 'tomato', marginLeft: '1.5rem', fontSize: 30}}/>
                     </IconButton>
                     </Box>
                     <SideBarSlider 
