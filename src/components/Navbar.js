@@ -33,7 +33,7 @@ import dhrubo from '../images/dhrubo.jpg'
 const useStyles = makeStyles( theme => ({
     sideBar: {
         width: 250,
-        background: '#142335',
+        background: '#0c1829fb',
         height: '100%'
     },
     avatar: {

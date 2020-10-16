@@ -21,7 +21,7 @@ import {
 
 const useStyles = makeStyles({
     mainContainer: {
-        background: '#142335',
+        background: '#0c1829fb',
         height: '100%'
     },
     cardContainer: {

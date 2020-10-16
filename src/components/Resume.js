@@ -5,12 +5,13 @@ import resumePDF from '../images/resume.pdf';
 import { makeStyles } from '@material-ui/core/styles'
 import { Box, Link, Tooltip } from '@material-ui/core'
 import GetAppIcon from '@material-ui/icons/GetApp';
+import { SizeMe } from 'react-sizeme'
+
+
 
 const useStyles = makeStyles({
     mainContainer: {
-        display: 'flex',
-        alignItems: "center",
-        justifyContent: "center"
+        marginTop: '5rem'
     }
 })
 
@@ -22,16 +23,22 @@ const Resume = () => {
         
         <>
             <Navbar />
-            <Tooltip title='Download Resume' placement='top-end' >
-                <Link href={`${process.env.PUBLIC_URL}/resume.pdf`} target='_blank' download >
-                        <GetAppIcon style={{color: 'tomato', fontSize: '60', marginLeft: '48%'}}/>
-                </Link>
-            </Tooltip>
-
-            <Box component='div' className={ classes.mainContainer } >
-                <Document file={resumePDF} options={{workerSrc: "pdf.worker.js"}}>
-                    <Page pageNumber={1} />
-                </Document>
+            <Box component='div' className={classes.mainContainer}>
+                <Tooltip title='Download Resume' placement='top-end' >
+                    <Link href={`${process.env.PUBLIC_URL}/resume.pdf`} target='_blank' download >
+                        <GetAppIcon style={{ color:'black', fontSize: '50', marginLeft: '48%', background:'tomato'}}/>
+                    </Link>
+                </Tooltip>
+                <br></br><br></br>
+                <SizeMe>
+                    {({ size }) => (
+                    
+                        <Document file={resumePDF} options={{workerSrc: "pdf.worker.js"}}>
+                            <Page width={size.width ? size.width : 1} pageNumber={1} />
+                        </Document>
+                    
+                    )}
+                </SizeMe>
             </Box>
         </>
     )

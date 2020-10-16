@@ -11,7 +11,14 @@ const useStyles = makeStyles(theme => ({
         left: '50%',
         width: '50%',
         transform: 'translate(-50%, -50%)',
-        position: 'absolute'
+        position: 'absolute',
+        [theme.breakpoints.down('md')]: {
+            width: '90%',
+            marginTop: '1.5rem',
+            '& .MuiTypography-root': {
+                fontSize: '13pt'
+            }
+        }
     },
     button: {
         marginTop: '1rem',
@@ -59,7 +66,7 @@ const Contact = () => {
     const classes = useStyles()
     return (
         <>
-            <Box component='div' style={{ background: '#142335', height: '100vh'}}>
+            <Box component='div' style={{ background: '#0c1829fb', height: '100vh'}}>
             <Navbar />
                 <Grid container justify='center'>
                     <Box component='form' className={classes.form} onSubmit={sendEmail}>
