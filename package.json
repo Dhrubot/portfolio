@@ -17,6 +17,7 @@
     "react-pdf": "^5.0.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "react-sizeme": "^2.6.12",
     "react-typed": "^1.2.0"
   },
   "scripts": {
