@@ -117,11 +117,11 @@ const Navbar = () => {
             <AppBar position='static' color="transparent" elevation={0}>
                 <Toolbar>
                     <Box flexGrow={1}>
-                        <Typography variant='h5' style={{ color: 'tan', textDecoration: 'none'}}  component={Link} to={'/'}>
+                        <Typography variant='h6' style={{ color: 'tan', textDecoration: 'none'}}  component={Link} to={'/'}>
                             Dhrubo's Portfolio
                         </Typography>
                     </Box>
-                    <Typography variant='h5' style={{ color: 'tan', textDecoration: 'none', marginLeft: '2rem'}} component={Link} to={'/resume'}>
+                    <Typography variant='h6' style={{ color: 'tan', textDecoration: 'none', marginLeft: '2rem'}} component={Link} to={'/resume'}>
                             Resume
                     </Typography>
                     <IconButton onClick={() => toggleSlider('right', true)} >

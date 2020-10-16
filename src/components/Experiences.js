@@ -156,7 +156,7 @@ const Experiences = () => {
                             IT Administrator
                         </Typography>
                         <Typography variant='body1' align='center' style={{color: 'tomato'}}>
-                            Apparent Productions Inc. 
+                            Apparel Production Inc. 
                         </Typography>
                         <Typography variant='subtitle1' align='center' style={{color: 'tan'}}>
                             <List>

@@ -59,7 +59,7 @@ const About = () => {
                     interface (UI), user experience (UX), and responsive design.<br /><br /> 
                     I am a recent graduate of Flatiron School's Software Engineer Curriculum and I am excitingly waiting for the
                     opportunity to apply my newfound expertise in Ruby on rails and Javascript as a software developer. <br /> <br />
-                    Some of my peronal hobbies and interests include: Travelling (17 states so far and counting...), Playing Guitar and Finding new skills (currently learning piano) to learn.
+                    Some of my hobbies and interests include: Travelling (17 states so far and counting...), Playing Guitar and Finding new skills to learn.
                 </Typography>
             </CardContent>
             <CardActions disableSpacing style={{justifyContent: 'center'}}>
