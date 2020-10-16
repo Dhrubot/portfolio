@@ -44,7 +44,7 @@ const useStyles = makeStyles( theme => ({
     },
     listItem: {
         color: 'tan'
-    }
+    },
 }))
 
 const menuItems = [
@@ -118,15 +118,19 @@ const Navbar = () => {
                 <Toolbar>
                     <Box flexGrow={1}>
                         <Typography variant='h6' style={{ color: 'tan', textDecoration: 'none'}}  component={Link} to={'/'}>
-                            Dhrubo's Portfolio
+                            Dhrubo
                         </Typography>
                     </Box>
-                    <Typography variant='h6' style={{ color: 'tan', textDecoration: 'none', marginLeft: '2rem'}} component={Link} to={'/resume'}>
+                    <Box>
+                    <Typography variant='h6' style={{ color: 'tan', textDecoration: 'none'}} component={Link} to={'/resume'}>
                             Resume
                     </Typography>
+                    </Box>
+                    <Box>
                     <IconButton onClick={() => toggleSlider('right', true)} >
-                        <MenuIcon style={{ color: 'tomato', marginLeft: '2rem' }} fontSize='large'/>
+                        <MenuIcon style={{ color: 'tomato', marginLeft: '1.5rem'}} fontSize='large'/>
                     </IconButton>
+                    </Box>
                     <SideBarSlider 
                         anchor='right' 
                         open={state.right}
