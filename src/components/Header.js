@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
         color: 'orangeRed'
     },
     subtitle: {
-        color: 'coral',
+        color: 'tan',
         marginBottom: '3rem'
     },
     typedContainer: {
