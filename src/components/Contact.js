@@ -73,8 +73,8 @@ const Contact = () => {
                         <Typography variant='h5' style={{ color: 'orangeRed', textAlign: 'center', textTransform: 'uppercase'}}>
                             Get In Touch
                         </Typography>
-                        <Typography variant='h6' style={{ color: 'tomato', textAlign: 'center'}}>
-                            Send a message here or email me at dhrubo.dh@gmail.com to talk about a project collaboration or a job prospect
+                        <Typography style={{ color: 'tomato', textAlign: 'center'}}>
+                            Send a message here or email me at dhrubo.dh@gmail.com to talk about a project collaboration or a job prospect.
                         </Typography>
                         <InputField fullWidth={true} label='Name' name='name' variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium' /> <br />
                         <InputField fullWidth={true} label='Email' name='email' variant='outlined' inputProps={{style: { color: 'white' }}} margin='dense' size='medium'/> <br />

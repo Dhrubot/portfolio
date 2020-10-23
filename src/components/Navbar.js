@@ -54,6 +54,11 @@ const menuItems = [
         listPath: '/'
     },
     {
+        listIcon: <InfoIcon />,
+        listText: 'About Me',
+        listPath: '/about'
+    },
+    {
         listIcon: <Apps />,
         listText: 'Portfolio',
         listPath: '/portfolio'
@@ -67,11 +72,6 @@ const menuItems = [
         listIcon: <DescriptionIcon />,
         listText: 'Resume',
         listPath: '/resume'
-    },
-    {
-        listIcon: <InfoIcon />,
-        listText: 'About Me',
-        listPath: '/about'
     },
     {
         listIcon: <ContactMail />,

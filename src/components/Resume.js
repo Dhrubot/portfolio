@@ -11,7 +11,7 @@ import { SizeMe } from 'react-sizeme'
 
 const useStyles = makeStyles({
     mainContainer: {
-        marginTop: '5rem'
+        marginTop: '5rem',
     }
 })
 
@@ -31,12 +31,10 @@ const Resume = () => {
                 </Tooltip>
                 <br></br><br></br>
                 <SizeMe>
-                    {({ size }) => (
-                    
-                        <Document file={resumePDF} options={{workerSrc: "pdf.worker.js"}}>
-                            <Page width={size.width ? size.width : 1} pageNumber={1} />
+                    {({ size }) => (                    
+                        <Document file={ resumePDF } options={{ workerSrc: "pdf.worker.js" }} >
+                            <Page width={ size.width ? size.width : 1 } pageNumber={1}/>
                         </Document>
-                    
                     )}
                 </SizeMe>
             </Box>

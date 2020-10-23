@@ -50,26 +50,26 @@ const Portfolio = () => {
                             >
                                 <GitHubIcon />
                             </IconButton>
-                            <IconButton aria-label="Live" 
+                            <IconButton aria-label="Demo" 
                                 style={{color: '#78A9D8'}} 
-                                onClick={() => window.open('https://dhrubot.github.io/circle-frontend/')}
+                                onClick={() => window.open('https://youtu.be/R-lwk4f_sGI')}
                             >
                                 <LiveTvIcon />
                             </IconButton>
                             </>
                         }/>
-                        <CardActionArea>
+                        <CardActionArea onClick={() => window.open('https://dhrubot.github.io/circle-frontend/')}>
                             <CardMedia component='img' alt='Circle' height='160' image={circle} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
-                                    Circle is a social media website that lets it's users to interact with each other
+                                    Circle is a social media website that lets users to interact with each other
                                     through posts and updates.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
-                        <CardActions style={{marginLeft: '1rem'}}>
+                        <CardActions style={{marginLeft: '0.5rem'}}>
                             <Typography variant='overline' style={{color: '#8B9EAF'}}>
-                                Rails React Redux React-Bootstrap
+                                Rails | React | Redux | React-Bootstrap
                             </Typography>
                         </CardActions>
                     </Card>
@@ -88,25 +88,25 @@ const Portfolio = () => {
                                 </IconButton>
                                 <IconButton aria-label="Live" 
                                     style={{color: '#78A9D8'}} 
-                                    onClick={() => window.open('https://dhrubot.github.io/space-shooter-frontend/')}
+                                    onClick={() => window.open('https://youtu.be/vws3uSpW-iI')}
                                 >
                                     <LiveTvIcon />
                                 </IconButton>
                                 </>
                             }/>
-                        <CardActionArea>
+                        <CardActionArea onClick={() => window.open('https://dhrubot.github.io/space-shooter-frontend/')}>
                             <CardMedia component='img' alt='SpaceShooter' height='160' image={spaceShooter} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
                                     Space Shooter is a shooting game where the 
-                                    task of user ship is to destroy all the enemy 
+                                    task of the user's ship is to destroy all the enemy ships
                                     before they reach the earth.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
-                        <CardActions style={{marginLeft: '1rem'}}>
+                        <CardActions style={{marginLeft: '0.5rem'}}>
                             <Typography variant='overline' style={{color: '#8B9EAF'}}>
-                                Rails Javascript HTML CSS
+                                Rails | JavaScript | HTML | CSS
                             </Typography>
                         </CardActions>
                     </Card>
@@ -125,24 +125,24 @@ const Portfolio = () => {
                                 </IconButton>
                                 <IconButton aria-label="Live" 
                                     style={{color: '#78A9D8'}} 
-                                    onClick={() => window.open('https://palmkings.herokuapp.com/')}
+                                    onClick={() => window.open('https://youtu.be/SdoRSKEw-lo')}
                                 >
                                     <LiveTvIcon />
                                 </IconButton>
                                 </>
                             }/>
-                        <CardActionArea>
+                        <CardActionArea onClick={() => window.open('https://palmkings.herokuapp.com/')}>
                             <CardMedia component='img' alt='Palmkings' height='160' image={palmkings} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
                                     Palmkings is a user-driven marketplace for new and used cellphones.
-                                    Users can buy and sell cellphone once they create an account.
+                                    Users can buy and sell cellphones once they create an account.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
-                        <CardActions style={{marginLeft: '1rem'}}>
+                        <CardActions style={{marginLeft: '0.5rem'}}>
                             <Typography variant='overline' style={{color: '#8B9EAF'}}>
-                                Rails AWS S3 Bootstrap
+                                Rails | AWS S3 | Bootstrap
                             </Typography>
                         </CardActions>
                     </Card>

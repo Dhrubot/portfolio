@@ -34,7 +34,7 @@ const useStyles = makeStyles(theme => ({
         width: '100vw',
         textAlign: 'center',
         zIndex: 1
-    }
+    },
 }))
 
 function Header() {
@@ -49,9 +49,9 @@ function Header() {
             </Typography>
             <br />
             <Typography className={classes.subtitle}  variant='h5'>
-                <Typed strings={['Software Engineering','Full Stack Web Developement', 'Ruby on Rails', 'Javascript', 'React', 'Redux']} 
+                <Typed strings={['Software Engineering','Full Stack Web Development', 'Ruby on Rails', 'JavaScript', 'React', 'Redux']} 
                 typeSpeed={40}
-                backSpeed={60}
+                backSpeed={80}
                 loop
             />
             </Typography>

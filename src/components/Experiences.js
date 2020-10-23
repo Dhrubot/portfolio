@@ -44,16 +44,16 @@ const useStyles = makeStyles( theme => ({
             content: "''",
             position: 'absolute'
         },
-        '&:before': {
-            content: "''",
-            position: 'absolute',
-            right: '-0.625rem',
-            top: 'calc(50% - 5px)',
-            borderStyle: 'solid',
-            borderColor: 'tomato tomato transparent transparent',
-            borderWidth: '0.625rem',
-            transform: 'rotate(45deg)'
-        },
+        // '&:before': {
+        //     content: "''",
+        //     position: 'absolute',
+        //     right: '-0.625rem',
+        //     top: 'calc(50% - 5px)',
+        //     borderStyle: 'solid',
+        //     borderColor: 'tomato tomato transparent transparent',
+        //     borderWidth: '0.625rem',
+        //     transform: 'rotate(45deg)'
+        // },
         [theme.breakpoints.up('md')]: {
             width: '44%',
             margin: '1rem',
@@ -148,6 +148,7 @@ const Experiences = () => {
                             </List>
                         </Typography>
                     </Box>
+                    <br></br>
                     <Typography variant='h2' className={`${classes.timelineYear} ${classes.timeLineItem}`}>
                         2016 - 2017
                     </Typography>
