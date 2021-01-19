@@ -53,8 +53,8 @@ const About = () => {
             <CardHeader classes={{title: classes.title, subheader: classes.subheader}} title={'Dhrubo Talukder'} subheader={'New York | Email: dhrubo.dh@gmail.com'} />
             <CardContent>
                 <Typography style={{fontSize: '12pt', padding:'2rem'}}paragraph>
-                    Hello! I'm Dhrubo Talukder, a full stack web developer & software engineer, currently living in the East Coast but always open to exploring new places to live. <br /><br />
-                    I enjoy bringing ideas to life, whether that be wesbites, applications, music 
+                    Hello! I'm Dhrubo Talukder, a full stack web developer & software engineer, currently living in the East Coast and always open to exploring new places to live. <br /><br />
+                    I enjoy bringing ideas to life, whether that be websites, applications, music 
                     or anything in between. My goal is to build applications with strong user 
                     interface (UI), user experience (UX), and responsive design.<br /><br /> 
                     I am a recent graduate of Flatiron School's Software Engineer Curriculum and I am excitingly waiting for the

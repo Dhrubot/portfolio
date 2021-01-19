@@ -14,7 +14,7 @@ import {
     List,
     Typography,
     Box, 
-    ListItemIcon
+    ListItemIcon,
 } from '@material-ui/core'
 import { 
     AssignmentInd,
@@ -26,6 +26,7 @@ import MenuIcon from '@material-ui/icons/Menu'
 import InfoIcon from '@material-ui/icons/Info';
 import DescriptionIcon from '@material-ui/icons/Description';
 import dhrubo from '../images/dhrubo.jpg'
+import logo from '../images/logo.jpg'
 
 
 // CSS styles
@@ -45,6 +46,10 @@ const useStyles = makeStyles( theme => ({
     listItem: {
         color: 'tan'
     },
+    logo: {
+        width: theme.spacing(4),
+        height: theme.spacing(4),
+      },
 }))
 
 const menuItems = [
@@ -117,9 +122,10 @@ const Navbar = () => {
             <AppBar position='static' color="transparent" elevation={0}>
                 <Toolbar>
                     <Box flexGrow={1}>
-                        <Typography variant='h6' style={{ color: 'tan', textDecoration: 'none'}}  component={Link} to={'/'}>
+                        {/* <Typography variant='h6' style={{ color: 'tan', textDecoration: 'none'}}  component={Link} to={'/'}>
                             Dhrubo
-                        </Typography>
+                        </Typography> */}
+                        <Avatar alt='Dhrubo' src={logo} variant="square" className={classes.logo} component={Link} to={'/'} />
                     </Box>
                     <Box>
                     <Typography variant='h6' style={{ color: 'tan', textDecoration: 'none'}} component={Link} to={'/resume'}>

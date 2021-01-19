@@ -62,8 +62,8 @@ const Portfolio = () => {
                             <CardMedia component='img' alt='Circle' height='160' image={circle} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
-                                    Circle is a social media website that lets users to interact with each other
-                                    through posts and updates.
+                                    Circle is a social media website which allow users, who sign up for free, to connect with other
+                                    users online through posts and updates.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -98,8 +98,8 @@ const Portfolio = () => {
                             <CardMedia component='img' alt='SpaceShooter' height='160' image={spaceShooter} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
-                                    Space Shooter is a shooting game where the 
-                                    task of the user's ship is to destroy all the enemy ships
+                                    Space Shooter is a shooting game wrote in JavaScript where the 
+                                    task of the user is to destroy all the enemy ships
                                     before they reach the earth.
                                 </Typography>
                             </CardContent>
@@ -135,8 +135,8 @@ const Portfolio = () => {
                             <CardMedia component='img' alt='Palmkings' height='160' image={palmkings} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
-                                    Palmkings is a user-driven marketplace for new and used cellphones.
-                                    Users can buy and sell cellphones once they create an account.
+                                    Palmkings is a user-driven e-commerce marketplace for cellphones.
+                                    Users, after signing up for free, can buy and sell cellphones.
                                 </Typography>
                             </CardContent>
                         </CardActionArea>
