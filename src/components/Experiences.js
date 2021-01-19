@@ -2,7 +2,6 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles'
 import { Typography, Box, List, ListItem, ListItemIcon, ListItemText } from '@material-ui/core'
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
-import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import Navbar from './Navbar'
 
 const useStyles = makeStyles( theme => ({
@@ -17,7 +16,7 @@ const useStyles = makeStyles( theme => ({
             content: "''",
             position: 'absolute',
             height: '100%',
-            border: '1px solid tan',
+            border: '1px solid #9CCDEB',
             right: '40px',
             top: 0
         },
@@ -36,7 +35,7 @@ const useStyles = makeStyles( theme => ({
     },
     timeLineItem: {
         padding: '1rem',
-        borderBottom: '2px solid tan',
+        borderBottom: '2px solid #BCE0F8',
         position: 'relative',
         margin: '1rem, 3rem, 1rem, 1rem',
         clear: 'both',
@@ -60,7 +59,7 @@ const useStyles = makeStyles( theme => ({
             '&:nth-of-type(2n)': {
                 float: 'right',
                 margin: '1rem',
-                borderColor: 'tan'
+                borderColor: '#9CCDEB'
             },
             '&:nth-of-type(2n):before': {
                 right: 'auto',
@@ -74,7 +73,8 @@ const useStyles = makeStyles( theme => ({
         maxWidth: '10.375rem',
         margin: '0 3rem 0 auto',
         fontSize: '1.8rem',
-        background: 'tomato',
+        background: '#062B53',
+        opacity: 0.7,
         color: 'white',
         lineHeight: 1,
         padding: '0.5rem 0 1rem',
@@ -99,7 +99,7 @@ const useStyles = makeStyles( theme => ({
         textTransform: 'uppercase'
     },
     subHeading: {
-        color: 'white',
+        color: '#BCE0F8',
         padding: '0',
         textTransform: 'uppercase'
     }
@@ -125,7 +125,7 @@ const Experiences = () => {
                         <Typography variant='body1' align='center' style={{color: 'tomato'}}>
                             @Uber
                         </Typography>
-                        <Typography variant='subtitle1' align='center' style={{color: 'tan'}}>
+                        <Typography variant='subtitle1' align='center' style={{color: '#9CCDEB'}}>
                             <List>
                                 <ListItem>
                                     <ListItemIcon>
@@ -159,23 +159,23 @@ const Experiences = () => {
                         <Typography variant='body1' align='center' style={{color: 'tomato'}}>
                             Apparel Production Inc. 
                         </Typography>
-                        <Typography variant='subtitle1' align='center' style={{color: 'tan'}}>
+                        <Typography variant='subtitle1' align='center' style={{color: '#9CCDEB'}}>
                             <List>
                                     <ListItem>
                                         <ListItemIcon>
-                                            <ArrowBackIcon style={{color: 'tomato', fontSize: 'large'}}/>
+                                            <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
                                         </ListItemIcon>
                                         <ListItemText primary="Updated company website and social media pages to show new products and related data, often using Adobe Photoshop; collaborated with server provider to resolve backend issues." />
                                     </ListItem>
                                     <ListItem>
                                         <ListItemIcon>
-                                            <ArrowBackIcon style={{color: 'tomato', fontSize: 'large'}}/>
+                                            <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
                                         </ListItemIcon>
                                         <ListItemText primary="Avoided losses to the company by regularly managing databases with 45 clients and 15 suppliers, updating files and product information and troubleshooting issues within one day on average." />
                                     </ListItem>
                                     <ListItem>
                                         <ListItemIcon>
-                                            <ArrowBackIcon style={{color: 'tomato', fontSize: 'large'}}/>
+                                            <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
                                         </ListItemIcon>
                                         <ListItemText primary="Supported and resolved issues for 20 workstations by troubleshooting hardware and software problems, reaching out to product experts for any changes or updates, and communicating on an ongoing basis with 15+ employees." />
                                     </ListItem>

@@ -19,7 +19,7 @@ import {
 import { AssignmentInd, Home, Apps, ContactMail } from "@material-ui/icons";
 import MenuIcon from "@material-ui/icons/Menu";
 import InfoIcon from "@material-ui/icons/Info";
-import DescriptionIcon from "@material-ui/icons/Description";
+// import DescriptionIcon from "@material-ui/icons/Description";
 import dhrubo from "../images/dhrubo.jpg";
 import logo from "../images/logo.jpg";
 
@@ -70,11 +70,11 @@ const menuItems = [
     listText: "Experiences",
     listPath: "/experiences",
   },
-  {
-    listIcon: <DescriptionIcon />,
-    listText: "Resume",
-    listPath: "/resume",
-  },
+  // {
+  //   listIcon: <DescriptionIcon />,
+  //   listText: "Resume",
+  //   listPath: "/resume",
+  // },
   {
     listIcon: <ContactMail />,
     listText: "Contact Me",

@@ -10,7 +10,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyle = makeStyles( theme => ({
     cardContainer: {
-        color: 'tan',
+        color: '#9CCDEB',
         margin: '2rem auto',
         background: '#142335',
         width: '80%',
@@ -29,7 +29,7 @@ const useStyle = makeStyles( theme => ({
     },
 
     icon: {
-        fill: 'tan',
+        fill: '#BCE0F8',
         fontSize: '2rem',
         marginTop: '0',
         marginBottom: '1rem',

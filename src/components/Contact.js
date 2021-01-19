@@ -33,17 +33,17 @@ const InputField = withStyles({
             color: 'tomato',
         },
         '& label': {
-            color: 'tan'
+            color: '#9CCDEB'
         },
         '& .MuiOutlinedInput-root': {
             '& fieldset': {
-                borderColor: 'tan'
+                borderColor: '#9CCDEB'
             },
             '&:hover fieldset': {
-                borderColor: 'tan'
+                borderColor: '#9CCDEB'
             },
             '&.Mui-focused fieldset': {
-                borderColor: 'tan'
+                borderColor: '#9CCDEB'
             }
         },
     },
