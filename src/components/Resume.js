@@ -12,6 +12,7 @@ import { SizeMe } from 'react-sizeme'
 const useStyles = makeStyles({
     mainContainer: {
         marginTop: '5rem',
+        margin: '10%'
     }
 })
 
@@ -23,13 +24,12 @@ const Resume = () => {
         
         <>
             <Navbar />
-            <Box component='div' className={classes.mainContainer}>
+            <Box component='div' className={classes.mainContainer} >
                 <Tooltip title='Download Resume' placement='top-end' >
                     <Link href={`${process.env.PUBLIC_URL}/resume.pdf`} target='_blank' download >
-                        <GetAppIcon style={{ color:'black', fontSize: '50', marginLeft: '48%', background:'tomato'}}/>
+                        <GetAppIcon edge style={{ color:'black', fontSize: '40', background:'tomato'}}/>
                     </Link>
                 </Tooltip>
-                <br></br><br></br>
                 <SizeMe>
                     {({ size }) => (                    
                         <Document file={ resumePDF } options={{ workerSrc: "pdf.worker.js" }} >

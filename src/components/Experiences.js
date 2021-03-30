@@ -72,7 +72,7 @@ const useStyles = makeStyles( theme => ({
         textAlign: 'center',
         maxWidth: '10.375rem',
         margin: '0 3rem 0 auto',
-        fontSize: '1.8rem',
+        fontSize: '1.4rem',
         background: '#062B53',
         opacity: 0.7,
         color: 'white',
@@ -116,6 +116,40 @@ const Experiences = () => {
                 </Typography>
                 <Box component='div' className={classes.timeLine}>
                     <Typography variant='h2' className={`${classes.timelineYear} ${classes.timeLineItem}`}>
+                        2021 - Present
+                    </Typography>
+                    <Box component='div' className={classes.timeLineItem}>
+                        <Typography variant='h5' align='center' className={classes.subHeading}>
+                            Software Engineer Intern
+                        </Typography>
+                        <Typography variant='body1' align='center' style={{color: 'tomato'}}>
+                            @Student Opportunity Center
+                        </Typography>
+                        <Typography variant='subtitle1' align='center' style={{color: '#9CCDEB'}}>
+                            <List>
+                                <ListItem>
+                                    <ListItemIcon>
+                                        <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
+                                    </ListItemIcon>
+                                    <ListItemText primary="Manage and update UI using Angular and Angular Material for increased responsiveness and more interactive site." />
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemIcon>
+                                        <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
+                                    </ListItemIcon>
+                                    <ListItemText primary="Oversee backend service to provide support for database and storage using Angular Firebase and Angular Firestore." />
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemIcon>
+                                        <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
+                                    </ListItemIcon>
+                                    <ListItemText primary="Prepare for anticipated work, including writing API documentation for the app from scratch." />
+                                </ListItem>
+                            </List>
+                        </Typography>
+                    </Box>
+                    <br />
+                    <Typography variant='h2' className={`${classes.timelineYear} ${classes.timeLineItem}`}>
                         2015 - 2019
                     </Typography>
                     <Box component='div' className={classes.timeLineItem}>
@@ -157,7 +191,7 @@ const Experiences = () => {
                             IT Administrator
                         </Typography>
                         <Typography variant='body1' align='center' style={{color: 'tomato'}}>
-                            Apparel Production Inc. 
+                            @Apparel Production Inc. 
                         </Typography>
                         <Typography variant='subtitle1' align='center' style={{color: '#9CCDEB'}}>
                             <List>
