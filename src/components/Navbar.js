@@ -140,9 +140,10 @@ const Navbar = () => {
                 variant="h6"
                 style={{ color: "#BCE0F8", textDecoration: "none" }}
                 component={Link}
-                to={"/resume"}
+                to={'/#'}
+                onClick={() => window.open('https://dhrubot.medium.com/')}
               >
-                Resume
+                <strong>Blog</strong>
               </Typography>
             </Box>
             <Box>

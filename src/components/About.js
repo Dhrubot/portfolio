@@ -64,7 +64,7 @@ const About = () => {
             </CardContent>
             <CardActions disableSpacing style={{justifyContent: 'center'}}>
                 <Tooltip title='LinkedIn' placement="top">
-                    <IconButton onClick={() => window.open('https://www.linkedin.com/in/dhrubo-talukder-1895261b3/')}>
+                    <IconButton onClick={() => window.open('https://www.linkedin.com/in/dhrubo-talukder')}>
                         <LinkedInIcon className={classes.icon} />  
                     </IconButton>
                 </Tooltip>

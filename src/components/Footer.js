@@ -25,7 +25,7 @@ const Footer = () => {
     const classes = useStyles()
     return (
         <BottomNavigation width='auto' style={{background: '#222'}}>
-            <BottomNavigationAction className={classes.root} style= {{ padding: 0 }} icon={<LinkedInIcon />} onClick={() => window.open('https://www.linkedin.com/in/dhrubo-talukder-1895261b3/')} />
+            <BottomNavigationAction className={classes.root} style= {{ padding: 0 }} icon={<LinkedInIcon />} onClick={() => window.open('https://www.linkedin.com/in/dhrubo-talukder')} />
             <BottomNavigationAction className={classes.root} style= {{ padding: 0 }} icon={<Twitter />} onClick={() => window.open('https://twitter.com/Dhowate')}/>
             <BottomNavigationAction className={classes.root} style= {{ padding: 0 }} icon={<GitHubIcon />} onClick={() => window.open('https://github.com/Dhrubot')} />
         </BottomNavigation>
