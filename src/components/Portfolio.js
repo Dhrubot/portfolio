@@ -62,7 +62,7 @@ const Portfolio = () => {
                             <CardMedia component='img' alt='Circle' height='160' image={circle} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
-                                    Circle is a social media website which allow users, who sign up for free, to connect with other
+                                    Circle is a social media website, which allow users, who sign up for free, to connect with other
                                     users online through posts and updates.
                                 </Typography>
                             </CardContent>
@@ -98,7 +98,7 @@ const Portfolio = () => {
                             <CardMedia component='img' alt='SpaceShooter' height='160' image={spaceShooter} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
-                                    Space Shooter is a shooting game wrote in JavaScript where the 
+                                    Space Shooter is a shooting game I wrote in JavaScript where the 
                                     task of the user is to destroy all the enemy ships
                                     before they reach the earth.
                                 </Typography>
