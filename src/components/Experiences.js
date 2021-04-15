@@ -131,6 +131,18 @@ const Experiences = () => {
                                     <ListItemIcon>
                                         <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
                                     </ListItemIcon>
+                                    <ListItemText primary="Wrote and designed the API documentation for the app from scratch using HTML, CSS and jQuery." />
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemIcon>
+                                        <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
+                                    </ListItemIcon>
+                                    <ListItemText primary="Tasked with transferring the exisiting backend written in Python to a Google Firebase serverless API, utilizing microservices and cloud functions." />
+                                </ListItem>
+                                <ListItem>
+                                    <ListItemIcon>
+                                        <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
+                                    </ListItemIcon>
                                     <ListItemText primary="Manage and update UI using Angular and Angular Material for increased responsiveness and more interactive site." />
                                 </ListItem>
                                 <ListItem>
@@ -138,12 +150,6 @@ const Experiences = () => {
                                         <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
                                     </ListItemIcon>
                                     <ListItemText primary="Oversee backend service to provide support for database and storage using Angular Firebase and Angular Firestore." />
-                                </ListItem>
-                                <ListItem>
-                                    <ListItemIcon>
-                                        <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
-                                    </ListItemIcon>
-                                    <ListItemText primary="Prepare for anticipated work, including writing API documentation for the app from scratch." />
                                 </ListItem>
                             </List>
                         </Typography>
