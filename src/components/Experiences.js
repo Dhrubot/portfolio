@@ -131,13 +131,13 @@ const Experiences = () => {
                                     <ListItemIcon>
                                         <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
                                     </ListItemIcon>
-                                    <ListItemText primary="Wrote and designed the API documentation for the app from scratch using HTML, CSS and jQuery." />
+                                    <ListItemText primary="Design and write the API documentation for the app from scratch using HTML, CSS and jQuery." />
                                 </ListItem>
                                 <ListItem>
                                     <ListItemIcon>
                                         <ArrowForwardIcon style={{color: 'tomato', fontSize: 'large'}}/>
                                     </ListItemIcon>
-                                    <ListItemText primary="Tasked with transferring the exisiting backend written in Python to a Google Firebase serverless API, utilizing microservices and cloud functions." />
+                                    <ListItemText primary="Transfer the exisiting backend admin console written in Python to a Google Firebase serverless API, utilizing microservices and cloud functions." />
                                 </ListItem>
                                 <ListItem>
                                     <ListItemIcon>

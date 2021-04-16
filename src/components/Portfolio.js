@@ -62,7 +62,7 @@ const Portfolio = () => {
                             <CardMedia component='img' alt='Circle' height='160' image={circle} />
                             <CardContent>
                                 <Typography variant='body1' style={{color: '#4681B9'}} component='p'>
-                                    Circle is a social media website, which allow users, who sign up for free, to connect with other
+                                    Circle is a social media website, which allows user, who sign up for free, to connect with other
                                     users online through posts and updates.
                                 </Typography>
                             </CardContent>
