@@ -58,7 +58,7 @@ const About = () => {
                     or anything in between. My goal is to build applications with strong user 
                     interface (UI), user experience (UX), and responsive design.<br /><br /> 
                     I am a recent graduate of Flatiron School's Software Engineer curriculum, and I am excitingly waiting for the
-                    opportunity to apply my new-found expertise in Ruby on Rails and JavaScript framewroks sucs as React and Angular as a software developer. <br /> <br />
+                    opportunity to apply my new-found expertise in Ruby on Rails and JavaScript frameworks (e.g., React, Angular) as a software developer. <br /> <br />
                     Some of my hobbies and interests include: traveling (17 states so far and counting...), playing guitar and learning new skills.
                 </Typography>
             </CardContent>
