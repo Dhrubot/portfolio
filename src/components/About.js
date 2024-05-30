@@ -84,7 +84,7 @@ const About = () => {
                     </IconButton>
                 </Tooltip>
                 <Tooltip title='Resume' placement="top" >
-                    <IconButton onClick={() => window.location.href = '/resume'}>
+                    <IconButton onClick={() => window.open(`${process.env.PUBLIC_URL}/resume.pdf`, '_blank')}>
                         <DescriptionIcon className={classes.icon} />  
                     </IconButton>
                 </Tooltip>
