@@ -49,7 +49,13 @@ function Header() {
             </Typography>
             <br />
             <Typography className={classes.subtitle}  variant='h5'>
-                <Typed strings={['Software Engineering','Full Stack Web Development', 'JavaScript', 'React', 'Redux', 'Angular', 'Ruby on Rails', 'GraphQL', 'SQL', 'NoSQL']} 
+                <Typed 
+                strings={
+                    ['Software Engineering','Full Stack Web Development', 
+                        'JavaScript', 'React', 'Redux', 'Angular', 
+                        'Ruby on Rails', 'GraphQL', 'SQL', 'NoSQL'
+                    ]
+                } 
                 typeSpeed={40}
                 backSpeed={80}
                 loop
